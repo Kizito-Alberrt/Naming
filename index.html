@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Akan Name</title>
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+</head>
+<body>
+    <script src="scripts.js"></script>
+	<div>
+		This application takes a your birthday and calculates the day of the week they you born and then depending on your gender, will output your Akan Name. 
+	</div>
+	<div>
+		<p>Select your date of birth</p>
+		<form>
+			<input type="date" name="date_of_birth" id="dob">
+			<br>
+			<br>
+			<p>Please select your gender:</p>
+			<input type="radio" id="male" name="gender" value="male">
+			<label for="male">Male</label><br>
+			<input type="radio" id="female" name="gender" value="female">
+			<label for="female">Female</label><br>
+			<br>
+			<button type="button" onclick="checkDayofWeek()">Submit</button>
+		</form>	
+	</div>
+
+	<div>
+		<p id="results"></p>
+	</div>
+
+    <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
