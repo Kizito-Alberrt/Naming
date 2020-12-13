@@ -5,14 +5,28 @@
 	<link rel="stylesheet" type="text/css" href="css/custom.css">
 </head>
 <body>
+	<div class="header">
+        <h1>Akan Name</h1>
+        <div class="menue">
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    
+
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
     <script src="scripts.js"></script>
-	<div>
+	<div class="body">
 		This application takes your birthday and calculates the day of the week you were born and then depending on your gender, will output your Akan Name. 
 	</div>
-	<div>
+	<div class="narative">
 		<p>Select your date of birth</p>
 		<form>
-			<input type="date" name="date_of_birth" id="dob">
+			<input class="form" type="date" name="date_of_birth" id="dob">
 			<br>
 			<br>
 			<p>Please select your gender:</p>
@@ -21,7 +35,7 @@
 			<input type="radio" id="female" name="gender" value="female">
 			<label for="female">Female</label><br>
 			<br>
-			<button type="button" onclick="checkDayofWeek()">Submit</button>
+			<button type="button" class="button" onclick="checkDayofWeek()">Submit</button>
 		</form>	
 	</div>
 
